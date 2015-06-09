@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="GPH_QuickMessageServiceLib" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="GPH_QuickMessageServiceLib" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="GPH_QuickMessageServiceLib/Imports">
+      <xsd:import schemaLocation="http://localhost:8080/GPH_QuickMessageService?xsd=xsd0" namespace="GPH_QuickMessageServiceLib" />
+      <xsd:import schemaLocation="http://localhost:8080/GPH_QuickMessageService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8080/GPH_QuickMessageService?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GPH_QuickMessageService_JoinTheConversation_InputMessage">
+    <wsdl:part name="parameters" element="tns:JoinTheConversation" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_JoinTheConversation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:JoinTheConversationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_LeaveTheConversation_InputMessage">
+    <wsdl:part name="parameters" element="tns:LeaveTheConversation" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_LeaveTheConversation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LeaveTheConversationResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_BroadcastClientMsg_InputMessage">
+    <wsdl:part name="parameters" element="tns:BroadcastClientMsg" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_TargetClientMsg_InputMessage">
+    <wsdl:part name="parameters" element="tns:TargetClientMsg" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_ReplyServerMsg_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReplyServerMsg" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_ConfirmMsg_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConfirmMsg" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_TaskCompleted_InputMessage">
+    <wsdl:part name="parameters" element="tns:TaskCompleted" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_TaskCompleted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TaskCompletedResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_GetStationList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStationList" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_GetStationList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStationListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_IncreaseMessageNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:IncreaseMessageNo" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_IncreaseMessageNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IncreaseMessageNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_GetMessageNo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMessageNo" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_GetMessageNo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMessageNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_ServerJoin_InputMessage">
+    <wsdl:part name="parameters" element="tns:ServerJoin" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_ServerJoin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ServerJoinResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_ServerLeave_InputMessage">
+    <wsdl:part name="parameters" element="tns:ServerLeave" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_ServerLeave_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ServerLeaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_NotifyCurrentConnList_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:NotifyCurrentConnList" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_NotifyUserOfMessage_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:NotifyUserOfMessage" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_EditConnStatus_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:EditConnStatus" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_EditMessageStatus_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:EditMessageStatus" />
+  </wsdl:message>
+  <wsdl:message name="GPH_QuickMessageService_NotifyUserOfConfirmMessage_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:NotifyUserOfConfirmMessage" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="GPH_QuickMessageService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="JoinTheConversation">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/JoinTheConversation" message="tns:GPH_QuickMessageService_JoinTheConversation_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/JoinTheConversationResponse" message="tns:GPH_QuickMessageService_JoinTheConversation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="LeaveTheConversation">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/LeaveTheConversation" message="tns:GPH_QuickMessageService_LeaveTheConversation_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/LeaveTheConversationResponse" message="tns:GPH_QuickMessageService_LeaveTheConversation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="BroadcastClientMsg">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/BroadcastClientMsg" message="tns:GPH_QuickMessageService_BroadcastClientMsg_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="TargetClientMsg">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/TargetClientMsg" message="tns:GPH_QuickMessageService_TargetClientMsg_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ReplyServerMsg">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/ReplyServerMsg" message="tns:GPH_QuickMessageService_ReplyServerMsg_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ConfirmMsg">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/ConfirmMsg" message="tns:GPH_QuickMessageService_ConfirmMsg_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="TaskCompleted">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/TaskCompleted" message="tns:GPH_QuickMessageService_TaskCompleted_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/TaskCompletedResponse" message="tns:GPH_QuickMessageService_TaskCompleted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetStationList">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/GetStationList" message="tns:GPH_QuickMessageService_GetStationList_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/GetStationListResponse" message="tns:GPH_QuickMessageService_GetStationList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="IncreaseMessageNo">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/IncreaseMessageNo" message="tns:GPH_QuickMessageService_IncreaseMessageNo_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/IncreaseMessageNoResponse" message="tns:GPH_QuickMessageService_IncreaseMessageNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetMessageNo">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/GetMessageNo" message="tns:GPH_QuickMessageService_GetMessageNo_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/GetMessageNoResponse" message="tns:GPH_QuickMessageService_GetMessageNo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ServerJoin">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/ServerJoin" message="tns:GPH_QuickMessageService_ServerJoin_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/ServerJoinResponse" message="tns:GPH_QuickMessageService_ServerJoin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ServerLeave">
+      <wsdl:input wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/ServerLeave" message="tns:GPH_QuickMessageService_ServerLeave_InputMessage" />
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/ServerLeaveResponse" message="tns:GPH_QuickMessageService_ServerLeave_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="NotifyCurrentConnList">
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/NotifyCurrentConnList" message="tns:GPH_QuickMessageService_NotifyCurrentConnList_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="NotifyUserOfMessage">
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/NotifyUserOfMessage" message="tns:GPH_QuickMessageService_NotifyUserOfMessage_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="EditConnStatus">
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/EditConnStatus" message="tns:GPH_QuickMessageService_EditConnStatus_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="EditMessageStatus">
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/EditMessageStatus" message="tns:GPH_QuickMessageService_EditMessageStatus_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="NotifyUserOfConfirmMessage">
+      <wsdl:output wsaw:Action="GPH_QuickMessageServiceLib/GPH_QuickMessageService/NotifyUserOfConfirmMessage" message="tns:GPH_QuickMessageService_NotifyUserOfConfirmMessage_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

@@ -1,0 +1,20 @@
+Central FS(Stn11)
+Alexandra FS(Stn12) - HQ 1st Div
+Clementi FS(Stn13)
+Jurong Island FS(Stn14)
+Bishan FS(Stn15)
+Banyan FS(Stn16)
+Marina Bay FS(Stn17)
+Paya Lebar FS(Stn21)
+Changi FS(Stn22)
+Tampines FS(Stn23) - HQ 2nd Div
+Yishun FS(Stn31) - HQ 3rd Div
+Ang Mo Kio FS(Stn32)
+Seng Kang FS(Stn33)
+Jurong FS(Stn41)
+Tuas FS(Stn42)
+Woodlands FS(Stn43)
+Bukit Batok FS(Stn44) - HQ 4th Div
+Tuas View FS(Stn45)
+Brani Marine FS - HQ CDMC
+West Coast Marine FS

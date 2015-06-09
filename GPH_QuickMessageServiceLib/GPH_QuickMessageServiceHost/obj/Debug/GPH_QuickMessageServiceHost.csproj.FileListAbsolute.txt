@@ -1,0 +1,16 @@
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceHost.exe.config
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceHost.exe
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceHost.pdb
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\obj\Debug\GPH_QuickMessageServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\obj\Debug\GPH_QuickMessageServiceHost.exe
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\obj\Debug\GPH_QuickMessageServiceHost.pdb
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceHost.exe.config
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\obj\Debug\GPH_QuickMessageServiceHost.exe
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\obj\Debug\GPH_QuickMessageServiceHost.pdb
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceHost.exe
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceHost.pdb
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\bin\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceHost\obj\Debug\GPH_QuickMessageServiceHost.csprojResolveAssemblyReference.cache

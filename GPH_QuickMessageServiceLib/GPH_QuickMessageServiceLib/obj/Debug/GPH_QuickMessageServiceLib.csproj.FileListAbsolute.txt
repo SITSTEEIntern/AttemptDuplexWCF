@@ -1,0 +1,15 @@
+C:\Users\intern\Desktop\DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\bin\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\intern\Desktop\DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\bin\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\intern\Desktop\DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.csprojResolveAssemblyReference.cache
+C:\Users\intern\Desktop\DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\intern\Desktop\DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.csprojResolveAssemblyReference.cache
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\bin\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\bin\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\intern\Desktop\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\bin\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\bin\Debug\GPH_QuickMessageServiceLib.pdb
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.csprojResolveAssemblyReference.cache
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.dll
+C:\Users\Hu0xing\Desktop\ST Journey\SelfDo DuplexWCF\GPH_QuickMessageServiceLib\GPH_QuickMessageServiceLib\obj\Debug\GPH_QuickMessageServiceLib.pdb

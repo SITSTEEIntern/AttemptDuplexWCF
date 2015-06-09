@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="51633acc-8153-4727-93fa-22b6456bdef6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/GPH_QuickMessageService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GPH_QuickMessageService.xsd" MetadataType="Schema" ID="6e34ce58-fae6-4b8c-880d-e19dca2454b3" SourceId="1" SourceUrl="http://localhost:8080/GPH_QuickMessageService?xsd=xsd2" />
+    <MetadataFile FileName="GPH_QuickMessageService.disco" MetadataType="Disco" ID="925e7dd3-4b6a-42af-a88c-5514c6076873" SourceId="1" SourceUrl="http://localhost:8080/GPH_QuickMessageService?disco" />
+    <MetadataFile FileName="GPH_QuickMessageService.wsdl" MetadataType="Wsdl" ID="80de66cd-5e05-4c2f-ad32-c0f6d85965aa" SourceId="1" SourceUrl="http://localhost:8080/GPH_QuickMessageService?wsdl=wsdl0" />
+    <MetadataFile FileName="GPH_QuickMessageService1.wsdl" MetadataType="Wsdl" ID="81986d56-1a11-47d0-b8d4-6b66201d6f27" SourceId="1" SourceUrl="http://localhost:8080/GPH_QuickMessageService?wsdl" />
+    <MetadataFile FileName="GPH_QuickMessageService1.xsd" MetadataType="Schema" ID="5b419ddd-7943-4b6b-9903-995851522594" SourceId="1" SourceUrl="http://localhost:8080/GPH_QuickMessageService?xsd=xsd1" />
+    <MetadataFile FileName="GPH_QuickMessageService2.xsd" MetadataType="Schema" ID="32af46c0-609b-453e-8e78-004e3add4527" SourceId="1" SourceUrl="http://localhost:8080/GPH_QuickMessageService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

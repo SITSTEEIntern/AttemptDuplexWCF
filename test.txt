@@ -1,0 +1,3 @@
+GPH_QuickMessageServiceLib.IMessageServiceCallback
+
+
